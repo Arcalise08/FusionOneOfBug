@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FusionBug.Downstream", "FusionBug.Downstream\FusionBug.Downstream.csproj", "{9153F770-88FD-426C-AB13-C2E669052CCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FusionBug.Gateway", "FusionBug.Gateway\FusionBug.Gateway.csproj", "{1310811A-2A72-408E-9D45-15A5975B78D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFolder", "SolutionFolder", "{F4F5C9F0-D795-42B5-B409-B351B019BBC5}"
+	ProjectSection(SolutionItems) = preProject
+		refresh_graphql.ps1 = refresh_graphql.ps1
+		gateway.fgp = gateway.fgp
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9153F770-88FD-426C-AB13-C2E669052CCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9153F770-88FD-426C-AB13-C2E669052CCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9153F770-88FD-426C-AB13-C2E669052CCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9153F770-88FD-426C-AB13-C2E669052CCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1310811A-2A72-408E-9D45-15A5975B78D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1310811A-2A72-408E-9D45-15A5975B78D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1310811A-2A72-408E-9D45-15A5975B78D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1310811A-2A72-408E-9D45-15A5975B78D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
