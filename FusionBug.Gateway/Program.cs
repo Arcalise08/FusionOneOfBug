@@ -1,9 +1,11 @@
+using HotChocolate.Fusion.Configuration;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.AddServiceDefaults();
 var services = builder.Services;
-services.AddFusionGatewayServer()
-    .ConfigureFromFile("./gateway.fgp");
+services.AddGraphQLGatewayServer()
+    .AddConfigurationProvider(x => new FileSystemFusionConfigurationProvider("./gateway.far"));
 var app = builder.Build();
 
 app.MapDefaultEndpoints();

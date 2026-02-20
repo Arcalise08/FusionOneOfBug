@@ -1,7 +1,0 @@
-{
-  "subgraph":"downstream",
-  "http":{
-    "baseAddress":"http://downstream/graphql/",
-    "clientName":"fusion-http"
-  }
-}

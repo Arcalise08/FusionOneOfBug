@@ -1,7 +1,8 @@
 var builder = DistributedApplication.CreateBuilder(args);
 
-builder.AddProject<Projects.FusionBug_Downstream>("fusionbug-downstream");
+var downstream = builder.AddProject<Projects.FusionBug_Downstream>("fusionbug-downstream");
 
-builder.AddProject<Projects.FusionBug_Gateway>("fusionbug-gateway");
+builder.AddProject<Projects.FusionBug_Gateway>("fusionbug-gateway")
+    .WithReference(downstream);
 
 builder.Build().Run();
