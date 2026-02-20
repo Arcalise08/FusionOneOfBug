@@ -1,5 +1,22 @@
-This repo showcases a bug in the handling of oneOf when combining HotChocolate graphql downstream services with fusion. 
+This repo showcases a bug in the handling of json parsing in fusion
 
 instructions:
-  * run `./refresh_graphql.ps1` or follow fusion instructions to pack subgraphs and fusion graph
-  * notice that there are three oneOf directives in the generated gateway.fgp
+  * run the aspire project
+  * navigate to http://localhost:5057/graphql (or whatever url/port aspire gave the gateway)
+  * run this query
+```
+query {
+  foo(
+    barInput: "One Two Three"
+  ) {
+    fooDescription
+    fooId
+    fooName
+  }
+}
+```
+
+Notice that you get a ServerParseError:
+
+the validation object in "extensions" is being set to : "validationFailures\":[}}] which is invalid json
+
