@@ -1,0 +1,16 @@
+<Project Sdk="Aspire.AppHost.Sdk/13.1.1">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <UserSecretsId>a07d64aa-6e22-41d0-80bd-9216040c6497</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\FusionBug.Downstream\FusionBug.Downstream.csproj" />
+      <ProjectReference Include="..\FusionBug.Gateway\FusionBug.Gateway.csproj" />
+    </ItemGroup>
+
+</Project>
