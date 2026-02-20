@@ -8,6 +8,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFolder", "SolutionF
 	ProjectSection(SolutionItems) = preProject
 		refresh_graphql.ps1 = refresh_graphql.ps1
 		gateway.fgp = gateway.fgp
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FusionBug.AppHost", "FusionBug.AppHost\FusionBug.AppHost.csproj", "{3C721054-E9B0-436F-944C-6A83DEF637BA}"
