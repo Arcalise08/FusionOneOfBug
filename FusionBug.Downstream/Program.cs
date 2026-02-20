@@ -2,6 +2,8 @@ using FusionBug.Downstream.Graph;
 using FusionBug.Downstream.Models;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.AddServiceDefaults();
 var services = builder.Services;
 
 services.AddGraphQLServer()
@@ -9,6 +11,8 @@ services.AddGraphQLServer()
     .AddQueryType<FooGraph>();
 
 var app = builder.Build();
+
+app.MapDefaultEndpoints();
 
 app.MapGraphQL();
 await app.RunWithGraphQLCommandsAsync(args);

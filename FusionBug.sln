@@ -10,6 +10,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFolder", "SolutionF
 		gateway.fgp = gateway.fgp
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FusionBug.AppHost", "FusionBug.AppHost\FusionBug.AppHost.csproj", "{3C721054-E9B0-436F-944C-6A83DEF637BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FusionBug.ServiceDefaults", "FusionBug.ServiceDefaults\FusionBug.ServiceDefaults.csproj", "{CF5CCE45-45B7-4244-806C-E1C6C5708220}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{1310811A-2A72-408E-9D45-15A5975B78D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1310811A-2A72-408E-9D45-15A5975B78D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1310811A-2A72-408E-9D45-15A5975B78D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C721054-E9B0-436F-944C-6A83DEF637BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C721054-E9B0-436F-944C-6A83DEF637BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C721054-E9B0-436F-944C-6A83DEF637BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C721054-E9B0-436F-944C-6A83DEF637BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF5CCE45-45B7-4244-806C-E1C6C5708220}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF5CCE45-45B7-4244-806C-E1C6C5708220}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF5CCE45-45B7-4244-806C-E1C6C5708220}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF5CCE45-45B7-4244-806C-E1C6C5708220}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
